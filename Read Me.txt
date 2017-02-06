@@ -1,0 +1,21 @@
+PostNotes.
+**************
+
+This is a simple application created to take notes.
+
+* it was built using jQuery(JavaScript library, Bootstrap, Html and Css).
+
+* it uses localStorage as a means to save, retrieve, update and delete notes thereby performing a CRUD operation.
+
+* it offers a simple form of validation that ensures that users cannot just send empty fields as inputs and expect it to be saved.
+
+* it completely saves the titles, texts and dates for each note created at a particular time.
+
+* it runs the full functionalities of bootstrap & jQuery without connection to the internet but all that is needed is a great browser.
+
+* tested on Firefox, Chrome and Safari browsers.
+
+
+**************
+Enjoy !. 
+

@@ -1,0 +1,172 @@
+9<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	 <title>PostNotes</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="function.js"></script>
+
+
+	<style>
+		.jumbotron {
+			margin-top: 30px;
+			margin-left: 40px;
+			margin-right: 40px;
+			margin-bottom: 20px;
+			font-family: monospace;
+
+		}
+
+		body {
+			font-family: monospace;
+		}
+		
+		 #bg {
+            
+            background-image: url(img/pencils4.jpg);
+            background-attachment: fixed;
+            min-height: 600px;
+            min-width: 1000px;
+            padding-top: 50px;
+           	margin-bottom: 8px;
+
+
+        }
+
+          #mg {
+            background-image: url(img/pencils.jpg);
+            background-attachment: fixed;
+            color: aliceblue;
+            font-size: 15px;
+            min-width: 1000px;
+            padding-top: 50px;
+            margin-bottom: 8px;
+            
+        }
+
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><strong>PostNotes</strong></a>
+            </div>
+        </div>       
+    </nav><!-- end of navbar-->
+
+<div id="bg">
+	<div class="jumbotron">
+			<div class="container">
+				<img src="img/logos.png" alt="" class="pull-right">
+				<h2> PostNotes</h2>
+				<p> ... create, edit & delete notes with ease.</p>
+			
+			</div>
+		</div>
+	
+
+<div Class="container"><!--begin container-->
+<div class="row"><!-- begin row-->
+	<div class="col-xs-12"><!-- begin col-8-->
+	<form id="frmCadastre">
+		<!--<ul>
+			<li>
+				<label for="txtID"> Title:</label>
+				<input type="text" id="txtID"/>
+			</li>
+			<li>
+				<label for="txtName">Subject:</label>
+				<input type="text" id="txtName"/>
+			</li>
+			<li>
+				<label for="txtPhone"> Write it:</label>
+				<input type="textArea" id="txtPhone"/>
+			</li>
+
+			<li>
+				<input type="submit" value="Save" id="btnSave"/>
+			</li>
+		</ul>
+		
+
+<div class="form-group">
+    <label for="txtID">Title: </label>
+    <input type="text" class="form-control" id="txtID" placeholder="enter title">
+  </div>
+
+ -->
+
+	<div class="form-group">
+		    <label for="txtID"><bold> Title: </bold></label>
+			<input type="text" class="form-control" id="txtID" placeholder="enter title..." required="please enter a title.">
+	</div>
+		
+ 
+
+	<div class="form-group">
+    <label for="txtNT"><bold> Note: </bold></label>
+    <textarea class="form-control" id="txtNT" rows="10" placeholder="what's on your mind... " required="please enter a note."></textarea>
+  </div>
+
+   <button type="submit" class="btn btn-block btn-warning" value="Save" id="btnSave"> <strong>PostNote</strong> </button>
+			
+	</form>
+
+	</div><!-- end of col-xs-12-->
+
+		</div><!-- end of row-->
+</div><!-- end of container-->
+</div>
+
+<!--<div class="container">
+<hr/>
+<hr/>
+</div> -->
+
+
+<div class="row">
+<div class="col-xs-12">
+	<div class="container">
+	<table class="table table-inverse table-responsive table-hover" id="tblList">
+
+	</table>
+	</div>
+	</div>
+</div>
+
+
+<div id="mg">
+    <footer>
+      
+            <div class="container">
+        <div class="row">
+        <div class="col-xs-12 text-center">
+            <p><strong><a href="index.html"> PostNotes (GIS / NITDA) Assignment.</a></strong> <br/>
+                        <strong>Powered by: The HolySpirit. </strong></p>
+                         
+         </div>
+    
+            
+         
+        </div>
+        </div>
+
+    </footer>
+</div>
+		
+	    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
